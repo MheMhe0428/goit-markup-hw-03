@@ -1,4 +1,3 @@
-/*Declaration of Variables*/
 *:root {
     --default-color : #2E2F42;
     --secondary-color: #FFFFFF;
@@ -10,14 +9,12 @@
     --theme-color: #2E2F42;
 }
 
-/* default */
 h1,h2,h3,h4,h5,h6,p { margin: 0;}
 html { box-sizing: border-box;}
 *,*::after,*::before { box-sizing: inherit;}
 img { display: block; max-width: 100%; height: auto;}
 .list { list-style: none; padding: 0; margin: 0;}
 
-/* body */
 body {
     font-size: 16px;
     font-family: 'roboto', sans-serif;
@@ -28,7 +25,6 @@ body {
     letter-spacing: 0.32px;
 }
 
-/* Classes */
 .logo {
     color: inherit;
     font-size: 18px;
@@ -137,7 +133,6 @@ body {
     color: var(--secondary-color);
 }
 
-/* pseudo-elements */
 .menu-nav .nav:focus,
 .menu-nav .nav:hover{
     color: var(--sixth-color);
@@ -163,7 +158,6 @@ body {
     background-color: var(--third-color);
 }
 
-/* container, alignment and resizing */
 .centered-list {
     margin: 0 auto;
 }
