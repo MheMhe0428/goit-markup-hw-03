@@ -76,10 +76,11 @@ body {
     display: flex;
     flex-direction: column;
 }
-/*.feat-title, .card-title {
-    text-align: center;*/
-    .feat-title, {
-        margin: bottom 80px;
+.card-title {
+    text-align: center;
+}
+.feat-title {
+        margin: bottom 8px;
     }
 .feat-desc {
     color:var(--seventh-color);
@@ -249,7 +250,7 @@ body {
     display: inline-flex;
     align-items: flex-start;
     gap: 24px;
-   margin-bottom: 72px;
+    margin-bottom: 72px;
 }
 .project-card {
     display: flex;
